@@ -139,10 +139,8 @@ img {
     align-items: center;
     margin-left: auto; 
 }
-.contacts {
-    /* margin-right: 40px; */
-    /* flex-basis: calc((100% - 40px) / 2); */
-}
+
+
 .contacts:hover,
 .contacts:focus {
     color: #4D5AE5;
@@ -165,6 +163,9 @@ img {
     padding-top: 192px;
     padding-bottom: 192px;
     background-color: var(--accent-color);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.5),rgba(46, 47, 66, 0.5)),
+    url("../images/Hero-card.jpg");
+    background-size: cover;
 }
 
 
@@ -287,6 +288,21 @@ img {
     padding-bottom: 32px;
     text-align: center;
 }
+
+.social-list {
+    display: flex;
+}
+
+.social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+    
 
 /* =============================== /EMPLOYEES ================================ */
 
