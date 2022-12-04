@@ -163,7 +163,7 @@ img {
     padding-top: 192px;
     padding-bottom: 192px;
     background-color: var(--accent-color);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.5),rgba(46, 47, 66, 0.5)),
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),
     url("../images/Hero-card.jpg");
     background-size: cover;
 }
