@@ -79,7 +79,6 @@ img {
 
 .page-header-contaniar {
     display: flex;
-    align-items: center;
 }
 
 .page-nav {
@@ -340,7 +339,10 @@ img {
     text-transform: uppercase;
     color: #F4F4FD;
 }
-
+.footer-title {
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
 .text-footer {
     margin-top: 8px;
     width: 264px;
@@ -348,6 +350,41 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-footer-color);
+}
+
+.footer-info {
+    display: flex;  
+}
+
+.footer-description {
+    display: block;
+    margin-right: 120px;
+}
+
+.footer-social-media {
+    display: block;
+    
+}
+
+.footer-social-list {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-social-list-link:focus,
+.footer-social-list-link:hover {
+    background-color: #31D0AA;
+}
+
+.footer-social-list-link {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 /* ======================/FOOTER===================== */
 
