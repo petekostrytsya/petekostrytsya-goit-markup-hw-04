@@ -218,6 +218,16 @@ img {
     margin: -1px;
 }
 
+.quality-list-link {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px;
+    background-color: #F4F4FD;
+}
+
 .company-quality {
     padding-bottom: 0;
 }
@@ -291,9 +301,11 @@ img {
 
 .social-list {
     display: flex;
+    gap: 24px;
 }
 
 .social-list-link {
+    margin-top: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
