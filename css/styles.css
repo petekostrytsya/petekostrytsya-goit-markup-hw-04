@@ -326,7 +326,12 @@ img {
 
 .customers-list-link:hover,
 .customers-list-link:focus {
-    background-color: #9747FF;
+    border: 1px solid #9747FF;
+    color: #9747FF;
+}
+
+.customers-list-icon {
+    fill: currentColor;
 }
 
 .customers-list-link {
@@ -338,7 +343,7 @@ img {
     width: 168px;
     height: 88px;
     border-radius: 5px;
-    
+    color: rgba(142, 143, 153, 1);
 }
 
 
@@ -461,6 +466,16 @@ img {
     row-gap: 48px;
     column-gap: 24px;
 }
+
+.link-works:hover,
+.link-works:focus {
+    display: block;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    
+}
+
 
 .works-card-content-wrapper:hover,
 .works-card-content-wrapper:focus {
